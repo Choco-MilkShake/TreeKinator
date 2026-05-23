@@ -1,0 +1,50 @@
+# ==========================================
+# 1. EKOSISTEM PYTHON (BACKEND)
+# ==========================================
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# ==========================================
+# 2. EKOSISTEM VUE.JS / VITE (FRONTEND)
+# ==========================================
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.local
+.eslintcache
+*.tsbuildinfo
+
+# Logs & Debugging
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing (Cypress / Vitest)
+/cypress/videos/
+/cypress/screenshots/
+__screenshots__/
+
+# Vite specific
+*.timestamp-*-*.mjs
+
+# ==========================================
+# 3. SISTEM OPERASI & EDITOR
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
